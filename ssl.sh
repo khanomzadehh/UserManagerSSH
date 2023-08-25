@@ -192,7 +192,7 @@ sudo cp /etc/apache2/sites-available/default-ssl.conf /etc/apache2/sites-availab
 
 echo "<IfModule mod_ssl.c>
         <VirtualHost _default_:443>
-                ServerAdmin ShaHaN@${domain}
+                ServerAdmin info${domain}
                 ServerName ${domain}
                 DocumentRoot /var/www/html
                 ErrorLog ${APACHE_LOG_DIR}/error.log
