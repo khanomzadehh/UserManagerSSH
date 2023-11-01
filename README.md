@@ -10,7 +10,7 @@
 Hello, by this program which is written in Python and compiled into a Windows program, you can perform a clean IP scan by adding the IPs containing any text in the iplist.txt and the automatic program will extract the IPs from the text. It finds and establishes an SSH connection to them one by one, if the connection is established it displays it as CLEARIP, otherwise it passes through it. However, you should be careful not to have a VPN connection on Windows running the program, which interferes with finding a clean IP.
 
 ---
-سلام، توسط این برنامه که در زبان پایتون نوشته شده است و کامپایل شده است به برنامه ویندوزی میتوانید، اسکن آیپی تمیز را انجام دهید به این صورت که آیپی ها را حاوی هرگونه نوشته در iplist.txt اضافه کرده و برنامه اتوماتیک آیپی هارا از نوشتار پیدا و یک به یک به آنان اتصال SSH برقرار میکند، اگر اتصال برقرار شود آن را به عنوان CLEARIP نمایش میدهد در غیر اینصورت از آن عبور می کند. با این که باید دقت نمایید، اتصال VPN روی ویندوزی که برنامه را فعال میکند نداشته باشید که تداخل در پیداکردن IP تمیز دارد.
+فکر میکنم دیگر نیاز به معرفی نباشه، پنل مدیریت و فروش پروتکل SSH - DropBear - TUIC.
 <br>
 ### 📌 Photo:
 <p align="center" width="50%">
@@ -19,24 +19,54 @@ Hello, by this program which is written in Python and compiled into a Windows pr
 <br>
 
 ### 📌 Features:
-✔️ Fast scan IP
+✔️ Free
+✔️ Add single user 
+✔️ Inline 
+✔️ List of users 
+✔️ Delete user 
+✔️ Edit user 
+✔️ Activate Disable user 
+✔️ Settings 
+✔️ Shutdown after expiration date 
+✔️ Single user limit 
+✔️ Reset traffic 
+✔️ Shutdown after traffic 
+✔️ Windows exclusive program 
+✔️ Main user 
+✔️ Telegram bot 
+✔️ User login and exit log 
+✔️ Gift to users 
+✔️ Remove expired users 
+✔️ Anti-filter 
+✔️ Auto backup 
+✔️ Connection message 
+✔️ API token 
+✔️ Multi server 
+✔️ General log 
 
-✔️ No limit for any datacenter
-
-✔️ The best response
 
 
-
-### 📌 Download:
+### 📌 Installer:
 
 ```
-https://github.com/khanomzadehh/ScanClearIP/releases/download/1.0/1.0.zip
+bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/install.sh --ipv4)
 ```
 
-### 📌 Usages:
+<b>Note:</b> Do not use Root user for the username of the panel.
+
+
+### 📌 Telegram Bot Installer:
 
 ```
-After downloading, run the RUN.exe file in the program directory.
+bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/ssl.sh --ipv4)
 ```
 
-<b>Note:</b> Remember to save the IPs together with any other text in iplist.txt.
+<b>Note:</b> Only For Telegram Bot - Need Domain.
+
+
+### 📌 Block Iran IP Outgoing:
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/newblockiran.sh --ipv4)
+```
+
