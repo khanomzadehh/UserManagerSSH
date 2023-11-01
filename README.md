@@ -23,7 +23,7 @@ Hello, by this program which is written in Python and compiled into a Windows pr
 ✔️ Admin Panel<br>
 ✔️ User Panel<br>
 ✔️ Reseller Panel<br>
-✔️ Anti-filter<br>
+✔️ GOOD and NEW Anti-filter<br>
 ✔️ Add single user <br>
 ✔️ Inline <br>
 ✔️ List of users <br>
