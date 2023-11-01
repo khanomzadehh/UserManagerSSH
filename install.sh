@@ -16,10 +16,10 @@ adminpass=$(mysql -N -e "use ShaHaN; select adminpassword from setting where id=
 
 clear
 echo ""
-printshahan "UserManagerSSH Panel Installation :)" 0.1
+printshahan "UserManagerSSH Panel khanomzadehh Installation :)" 0.1
 echo ""
 echo ""
-printshahan "Please Wait . . ." 0.1
+printshahan "Please Wait . . ." 0.5
 echo ""
 echo ""
 
