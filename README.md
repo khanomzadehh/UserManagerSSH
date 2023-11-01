@@ -59,13 +59,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/ma
 <b>Note:</b> Do not use Root user for the username of the panel.
 
 
-### 📌 Telegram Bot Installer:
+### 📌 SSL Installer:
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/ssl.sh --ipv4)
 ```
 
-<b>Note:</b> Only For Telegram Bot - Need Domain.
+<b>Note:</b> Only For Telegram Bot - And AntiFilter.
 
 
 ### 📌 Block Iran IP Outgoing:
@@ -74,3 +74,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/ma
 bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/newblockiran.sh --ipv4)
 ```
 
+
+### 📌 Anti-Filter:
+
+```
+1- Please Added IP to ip.txt
+2- Control sleep on sc.sh and run Bash on screen terminal
+3- Set cronjob on linux server for run.sh
+```
+
+<b>Note:</b> The sleep time should be less than the cronjob time.
