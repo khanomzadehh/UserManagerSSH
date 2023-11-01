@@ -19,30 +19,30 @@ Hello, by this program which is written in Python and compiled into a Windows pr
 <br>
 
 ### 📌 Features:
-✔️ Free<br>
+✔️ Anti-filter<br>
 ✔️ Add single user <br>
-✔️ Inline 
-✔️ List of users 
-✔️ Delete user 
-✔️ Edit user 
-✔️ Activate Disable user 
-✔️ Settings 
-✔️ Shutdown after expiration date 
-✔️ Single user limit 
-✔️ Reset traffic 
-✔️ Shutdown after traffic 
-✔️ Windows exclusive program 
-✔️ Main user 
-✔️ Telegram bot 
-✔️ User login and exit log 
-✔️ Gift to users 
-✔️ Remove expired users 
-✔️ Anti-filter 
-✔️ Auto backup 
-✔️ Connection message 
-✔️ API token 
-✔️ Multi server 
-✔️ General log 
+✔️ Inline <br>
+✔️ List of users <br>
+✔️ Delete user <br>
+✔️ Edit user <br>
+✔️ Activate Disable user <br>
+✔️ Settings <br>
+✔️ Shutdown after expiration date <br>
+✔️ Single user limit <br>
+✔️ Reset traffic <br>
+✔️ Shutdown after traffic <br>
+✔️ Windows exclusive program <br>
+✔️ Main user <br>
+✔️ Telegram bot <br>
+✔️ User login and exit log <br>
+✔️ Gift to users <br>
+✔️ Remove expired users<br>
+✔️ License<br>
+✔️ Auto backup <br>
+✔️ Connection message <br>
+✔️ API token <br>
+✔️ Multi server <br>
+✔️ General log <br>
 
 
 
