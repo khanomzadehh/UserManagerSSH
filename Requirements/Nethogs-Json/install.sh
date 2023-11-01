@@ -8,7 +8,7 @@ elif command -v yum >/dev/null; then
 yum update -y
 yum install gcc-c++ libpcap-devel.x86_64 libpcap.x86_64 "ncurses*"
 fi
-sudo wget -O /root/nethogs.zip https://github.com/khanomzadehh/UserManagerSSH/tree/main/Requirements/Nethogs-Json/main.zip
+sudo wget -O /root/nethogs.zip https://github.com/khanomzadehh/UserManagerSSH/raw/main/Requirements/Nethogs-Json/main.zip
 sudo unzip /root/nethogs.zip
 sudo mv -f /root/Nethogs-Json-main /root/nethogs
 cd /root/nethogs/
