@@ -398,8 +398,8 @@ fi
 
 
 
-printf "\n\n\nPanel Link : http://${ipv4}/p/index.php"
+printf "\n\n\n\n\nPanel Link : http://${ipv4}/p/index.php"
 printf "\nUserName : \e[31m${adminusername}\e[0m "
 printf "\nPassword : \e[31m${adminpassword}\e[0m "
-printf "\nPort : \e[31m${port}\e[0m \n"
+printf "\nPort : \e[31m${port}\e[0m \n\n\n"
 printf "\n NOW You LIKE https://github.com/khanomzadehh \n"
