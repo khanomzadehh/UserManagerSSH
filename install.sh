@@ -370,6 +370,7 @@ chown www-data:www-data /var/www/config.json
 
 clear
 printf "%s" "$(</var/www/html/shahan.txt)"
+printf "\n\n\n"
 
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Font_color_suffix="\033[0m"
 IonCube=$(php -v)
