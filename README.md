@@ -7,10 +7,10 @@
 
 <br>
 
-Hello, by this program which is written in Python and compiled into a Windows program, you can perform a clean IP scan by adding the IPs containing any text in the iplist.txt and the automatic program will extract the IPs from the text. It finds and establishes an SSH connection to them one by one, if the connection is established it displays it as CLEARIP, otherwise it passes through it. However, you should be careful not to have a VPN connection on Windows running the program, which interferes with finding a clean IP.
+Think about how to access a data mining device, a management panel, and an SSH - DropBear - TUIC - Cisco protocol, with 3 large data management panels, a MindDigger, and a cartridge. Ranyan Aziz is very popular. When you look at the dashboard, remove the license plate from the price of the new car you are looking for at the same time.
 
 ---
-فکر میکنم دیگر نیاز به معرفی نباشه، پنل مدیریت و فروش پروتکل SSH - DropBear - TUIC.
+فکر میکنم دیگر نیاز به معرفی نباشه، پنل مدیریت و فروش پروتکل های SSH - DropBear - TUIC - Cisco با 3 پنل پیکپارچه مدیریت ، نمایندگی و کاربری برای ایرانیان عزیز منتشر شد. درنظر داشته باشید این پنل لایسنس با قیمت بسیار ناچیزی دارد که صرفا یکبار پرداخت است.
 <br>
 ### 📌 Photo:
 <p align="center" width="50%">
