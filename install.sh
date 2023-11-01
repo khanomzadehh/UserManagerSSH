@@ -16,10 +16,10 @@ adminpass=$(mysql -N -e "use ShaHaN; select adminpassword from setting where id=
 
 clear
 echo ""
-printshahan "UserManagerSSH Panel Installation :)" 0.1
+printshahan "UserManagerSSH Panel khanomzadehh Installation :)" 0.1
 echo ""
 echo ""
-printshahan "Please Wait . . ." 0.1
+printshahan "Please Wait . . ." 0.5
 echo ""
 echo ""
 
@@ -370,6 +370,7 @@ chown www-data:www-data /var/www/config.json
 
 clear
 printf "%s" "$(</var/www/html/shahan.txt)"
+printf "\n\n\n"
 
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Font_color_suffix="\033[0m"
 IonCube=$(php -v)
@@ -402,4 +403,4 @@ printf "\n\n\nPanel Link : http://${ipv4}/p/index.php"
 printf "\nUserName : \e[31m${adminusername}\e[0m "
 printf "\nPassword : \e[31m${adminpassword}\e[0m "
 printf "\nPort : \e[31m${port}\e[0m \n"
-printf "\n NOW You LIKE https://github.com/khanomzadehh \n"
+printf "\n NOW You LIKE https://github.com/khanomzadehh \n\n\n"
