@@ -283,7 +283,7 @@ wait
 crontab -r -u www-data
 sudo timedatectl set-timezone Asia/Tehran
 chmod 0646 /var/log/auth.log
-sudo wget -4 -O /usr/local/bin/shahan https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/screenshot/shahan &
+sudo wget -4 -O /usr/local/bin/shahan https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/main/screenshot/shahan &
 wait
 
 

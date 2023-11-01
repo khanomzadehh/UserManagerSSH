@@ -28,7 +28,7 @@ if ! [ $(id -u) = 0 ]; then
 fi
 
 clear
-echo -e "${YELLOW}************ ShaHaN SSH PANEL ************"
+echo -e "${YELLOW}************ UserManagerSSH PANEL ************"
 echo -e "${RED}-----------------------------------\n"
 echo -e "${YELLOW}-------- Server Details -----------\n"
 echo -e "${GREEN}IPv4 : $ipv4"
@@ -56,7 +56,7 @@ echo -e "  5)Block Iran IP ( Outgoing )"
 echo -e "  6)Change Panel Port"
 echo -e "  7)Forgot Password & ERROR-500"
 echo -e "  8)Backup Users"
-echo -e "  9)Remove ShaHaN"
+echo -e "  9)Remove UserManagerSSH"
 echo -e "  10)${GREEN}Install Cisco Anyconnect ${ENDCOLOR}"
 echo -e "  11)${GREEN}Install DropBear ${ENDCOLOR}"
 echo -e "  12)${GREEN}Install Fake Website ${ENDCOLOR}"
@@ -73,23 +73,23 @@ echo -e "  0)Exit"
 echo -ne "${GREEN}\nSelect Operation : ${ENDCOLOR}" ;read n
 
 case $n in
-  1) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/install.sh --ipv4) ;;
-  2) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/ssh-calls.sh --ipv4) ;;
-  3) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/ssl.sh --ipv4) ;;
+  1) bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/install.sh --ipv4) ;;
+  2) bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/ssh-calls.sh --ipv4) ;;
+  3) bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/ssl.sh --ipv4) ;;
   4) echo  -ne "${YELLOW}Please enter new port: ";read new_port;sudo sed -i "s@Port $port@Port $new_port@g" /etc/ssh/sshd_config;systemctl restart sshd;echo "Port Changed Successfully${ENDCOLOR}";;
-  5) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/newblockiran.sh --ipv4) ;;
-  6) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/screenshot/chp.sh --ipv4) ;;
-  7) mysql -e "use ShaHaN;update setting set adminuser='' and adminpassword='' where id=1;drop user $adminuser@localhost;" ;bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/install.sh --ipv4) ;;  
+  5) bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/newblockiran.sh --ipv4) ;;
+  6) bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/screenshot/chp.sh --ipv4) ;;
+  7) mysql -e "use ShaHaN;update setting set adminuser='' and adminpassword='' where id=1;drop user $adminuser@localhost;" ;bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/install.sh --ipv4) ;;  
   8) mysqldump -u root ShaHaN > /root/bckup-new.sql || echo "New Backup Created : /root/bckup-new.sql" ;;
   9) rm -fr /var/www/html/*;;
   10) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ocserv-Ubuntu/main/c.sh --ipv4) ;;
-  11) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/drop.sh --ipv4) ;;
-  12) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/fakewebsite.sh --ipv4) ;;
+  11) bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/main/drop.sh --ipv4) ;;
+  12) bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/main/fakewebsite.sh --ipv4) ;;
   20) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ocserv-Ubuntu/main/rc.sh --ipv4) ;;
   21) rm -fr /etc/apache2/conf-available/ssl-params.conf && rm -fr /etc/apache2/sites-available/default-ssl.conf && systemctl restart apache2 ;;
   22) apt purge php* php8* php7* apache2 -y && apt autoremove -y ;;
-  23) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/disableipv6.sh --ipv4) ;;
-  30) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/cpu.sh --ipv4) ;;
+  23) bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/disableipv6.sh --ipv4) ;;
+  30) bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/master/cpu.sh --ipv4) ;;
   0) clear;exit;;
   *) echo -e "${RED}\nInvalid Option. Press Enter to return back to the menu${ENDCOLOR}" ; read && shahan ;;
 esac
