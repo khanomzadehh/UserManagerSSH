@@ -19,8 +19,8 @@ Hello, by this program which is written in Python and compiled into a Windows pr
 <br>
 
 ### 📌 Features:
-✔️ Free
-✔️ Add single user 
+✔️ Free<br>
+✔️ Add single user <br>
 ✔️ Inline 
 ✔️ List of users 
 ✔️ Delete user 
