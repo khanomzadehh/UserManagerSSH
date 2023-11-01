@@ -20,6 +20,9 @@ Hello, by this program which is written in Python and compiled into a Windows pr
 <br>
 
 ### 📌 Features:
+✔️ Admin Panel<br>
+✔️ User Panel<br>
+✔️ Reseller Panel<br>
 ✔️ Anti-filter<br>
 ✔️ Add single user <br>
 ✔️ Inline <br>
