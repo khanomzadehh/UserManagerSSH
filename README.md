@@ -85,7 +85,8 @@ zone=domain.com
 dnsrecord=vpn.domain.com
 cloudflare_auth_email=your-email-cloudflare
 cloudflare_auth_key=your-token-cloudflare
-4- Set cronjob on linux server for run.sh
+4- Set cronjob on linux server for cron.sh
+* * * * * /usr/local/bin/cron.sh >> /usr/local/bin/cronlog 2>&1
 ```
 
 <b>Note:</b> The sleep time should be less than the cronjob time.
