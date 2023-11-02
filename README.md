@@ -80,7 +80,12 @@ bash <(curl -Ls https://raw.githubusercontent.com/khanomzadehh/UserManagerSSH/ma
 ```
 1- Please Added IP to ip.txt
 2- Control sleep on sc.sh and run Bash on screen terminal
-3- Set cronjob on linux server for run.sh
+3- Please edit run.sh:
+zone=domain.com
+dnsrecord=vpn.domain.com
+cloudflare_auth_email=your-email-cloudflare
+cloudflare_auth_key=your-token-cloudflare
+4- Set cronjob on linux server for run.sh
 ```
 
 <b>Note:</b> The sleep time should be less than the cronjob time.
